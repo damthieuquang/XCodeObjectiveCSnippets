@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>objc-layoutFullFill</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = NO;
+    [NSLayoutConstraint activateConstraints:@[
+      [&lt;#childView#&gt;.leftAnchor
+       constraintEqualToAnchor:&lt;#parentView#&gt;.leftAnchor],
+      [&lt;#childView#&gt;.rightAnchor
+          constraintEqualToAnchor:&lt;#parentView#&gt;.rightAnchor],
+      [&lt;#childView#&gt;.topAnchor
+          constraintEqualToAnchor:&lt;#parentView#&gt;.topAnchor],
+      [&lt;#childView#&gt;.bottomAnchor
+          constraintEqualToAnchor:&lt;#parentView#&gt;.bottomAnchor],
+    ]];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2CEBDA1C-DABD-4D62-A049-CF082DD15710</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objc - layoutFullFill</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
